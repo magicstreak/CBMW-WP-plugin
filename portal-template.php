@@ -34,8 +34,14 @@ if (!defined('ABSPATH')) { exit; }
         <h2>Walk Route Database</h2>
         <p>Catalog of CBMW walking routes</p>
       </a>
+      <!-- Card 4: Leader Database -->
+      <a href="<?php echo admin_url('admin.php?page=custom-admin-portal&tab=leaders'); ?>" class="card">
+        <div class="card-icon"><span>👥</span></div>
+        <h2>Leader Database</h2>
+        <p>Directory of CBMW Leaders</p>
+      </a>
 
-      <!-- Card 4: Post Walk Statistics -->
+      <!-- Card 5: Post Walk Statistics -->
       <a href="<?php echo admin_url('admin.php?page=custom-admin-portal&tab=stats'); ?>" class="card">
         <div class="card-icon"><span>📊</span></div>
         <h2>Post Walk Statistics</h2>
