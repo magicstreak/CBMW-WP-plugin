@@ -55,6 +55,10 @@ function cap_render_master_router() {
                class="nav-tab <?php echo $current_tab === 'database' ? 'nav-tab-active' : ''; ?>">
                Walk Route Database
             </a>
+            <a href="<?php echo admin_url('admin.php?page=custom-admin-portal&tab=leaders'); ?>" 
+               class="nav-tab <?php echo $current_tab === 'leaders' ? 'nav-tab-active' : ''; ?>">
+               Leaders Database
+            </a>
             <a href="<?php echo admin_url('admin.php?page=custom-admin-portal&tab=stats'); ?>" 
                class="nav-tab <?php echo $current_tab === 'stats' ? 'nav-tab-active' : ''; ?>">
                Post Walk Stats
