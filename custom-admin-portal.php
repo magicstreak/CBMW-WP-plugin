@@ -59,6 +59,10 @@ function cap_render_master_router() {
                class="nav-tab <?php echo $current_tab === 'leaders' ? 'nav-tab-active' : ''; ?>">
                Leaders Database
             </a>
+            <a href="<?php echo admin_url('admin.php?page=custom-admin-portal&tab=whatsApp'); ?>" 
+               class="nav-tab <?php echo $current_tab === 'leaders' ? 'nav-tab-active' : ''; ?>">
+               Post WhatsApp Alert
+            </a>
             <a href="<?php echo admin_url('admin.php?page=custom-admin-portal&tab=stats'); ?>" 
                class="nav-tab <?php echo $current_tab === 'stats' ? 'nav-tab-active' : ''; ?>">
                Post Walk Stats
@@ -83,6 +87,11 @@ function cap_render_master_router() {
                                echo '<div class="wrap" style="margin: 0; padding: 0; height: calc(100vh - 32px);">';
         echo '<iframe src="http://test.cbmwalkers.org/leader-directory-2/" style="width:100%; height:100%; border:none;" sandbox="allow-scripts allow-same-origin allow-forms allow-downloads"></iframe>';
         echo '</div>';
+        }
+else if ($current_tab === 'whatsApp') {  
+include plugin_dir_path(__FILE__) . 'pages/whatsapp-alert-card.php';
+
+       
         }else if ($current_tab === 'stats') {
             include plugin_dir_path(__FILE__) . 'pages/post-walk-stats.php';
         } else {
