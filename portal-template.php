@@ -40,6 +40,12 @@ if (!defined('ABSPATH')) { exit; }
         <h2>Leader Database</h2>
         <p>Directory of CBMW Leaders</p>
       </a>
+      <!-- Card 4: WhatsApp Alert -->
+      <a href="<?php echo admin_url('admin.php?page=custom-admin-portal&tab=whatsApp'); ?>" class="card">
+        <div class="card-icon"><span><i class="fa-brands fa-whatsapp"></i></span></div>
+        <h2>WhatsApp Alert</h2>
+        <p>Post alert to CBMW WhatsApp channel</p>
+      </a>
 
       <!-- Card 5: Post Walk Statistics -->
       <a href="<?php echo admin_url('admin.php?page=custom-admin-portal&tab=stats'); ?>" class="card">
