@@ -21,13 +21,6 @@ if (!defined('ABSPATH')) { exit; }
         <p>Coordinate walk offers for the seasons programme.</p>
       </a>
 
-      <!-- Card 2: Programme Builder -->
-      <a href="<?php echo admin_url('admin.php?page=custom-admin-portal&tab=builder'); ?>" class="card">
-        <div class="card-icon"><span>🛠️</span></div>
-        <h2>Programme Builder</h2>
-        <p>Merge the scheduler data with the walk database to create the programme, make any programme specific changes here.</p>
-      </a>
-
       <!-- Card 3: Walk Route Database -->
       <a href="<?php echo admin_url('admin.php?page=custom-admin-portal&tab=database'); ?>" class="card">
         <div class="card-icon"><span>🗺️</span></div>
