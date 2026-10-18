@@ -77,7 +77,7 @@ function cap_render_master_router() {
         
         } else if ($current_tab === 'leaders') {
                                echo '<div class="wrap" style="margin: 0; padding: 0; height: calc(100vh - 32px);">';
-        echo '<iframe src="http://test.cbmwalkers.org/leader-directory-2/" style="width:100%; height:100%; border:none;" sandbox="allow-scripts allow-same-origin allow-forms allow-downloads"></iframe>';
+        echo '<iframe src="https://magicstreak.github.io/Leaders-Hub/Pages/Leader-Directory.html?view=admin" style="width:100%; height:100%; border:none;" sandbox="allow-scripts allow-same-origin allow-forms allow-downloads"></iframe>';
         echo '</div>';
         }
 else if ($current_tab === 'whatsApp') {  
